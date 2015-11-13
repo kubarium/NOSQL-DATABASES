@@ -1,8 +1,4 @@
 import urllib.request
-import urllib.parse
-import urllib.response
-import re
-import sys
 
 with urllib.request.urlopen("http://nosql-database.org/") as response:
     html = response.read()
