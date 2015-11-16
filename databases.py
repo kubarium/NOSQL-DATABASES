@@ -1,21 +1,23 @@
+import sys
 import urllib.request
+from bs4 import BeautifulSoup
 
 with urllib.request.urlopen("http://nosql-database.org/") as response:
-    html = response.read()
+    html = BeautifulSoup(response.read(), "html.parser")
 
-#clean up html from \n and \t and double spaces
-html = html.decode().replace('\n','').replace('\t','').replace('  ','')
 
 #each h2 is a group of NoSQL database
-categories = re.findall("<h2>(.*?)</h2>", html)
+categories = html.find_all("h2")
 
 for category in categories:
     print(category)
-    #each category is followed by a number of articles and these articles are superceded by a final sectin before the next category
-    category_content = re.findall("<h2>"+category+"<\/h2>(<article>.*?<\/article>)<\/section>", html)
-
-    articles = re.findall("(<article>.*?</article>)", str(category_content).strip())
 
 
-    for article in articles:
-        print(article)
+    databases = category.parent.find_all("h3")
+    for database in databases:
+        database_tag = database.parent
+
+        if database.find("a"):
+            print(database_tag)
+        else:
+            print(database.text)
