@@ -1,0 +1,1022 @@
+{
+	"DocumentStore": {
+		"entries": [
+			{
+				"content": "API: REST and many languages, Protocol: REST, Query Method: via JSON, Replication + Sharding: automatic and configurable, written in: Java, \n\tMisc: schema mapping, multi tenancy with arbitrary indexes, \u00bb Company and Support, \u00bb Article",
+				"name": "Elasticsearch",
+				"url": "http://www.elasticsearch.org/"
+			},
+			{
+				"content": "(Doc Store & GraphDB & Key-Value. More details in Category Multimodel Databases)",
+				"name": "ArangoDB, OrientDB",
+				"url": "http://www.arangoDB.com/"
+			},
+			{
+				"content": "API: BSON, Protocol: C, Query Method: dynamic object-based language &\n\t\tMapReduce, Replication: Master Slave &\n\t\tAuto-Sharding, Written in: C++,Concurrency: Update in Place. Misc:\n\t\tIndexing, GridFS, Freeware + Commercial License Links:\n\t\t\u00bb Talk, \u00bb Notes,\n\t\t\u00bb Company",
+				"name": "MongoDB",
+				"url": "http://www.mongodb.org/"
+			},
+			{
+				"content": "API: Memcached API+protocol (binary and ASCII) , most languages, Protocol:\n\tMemcached REST interface for cluster conf + management,\n\tWritten in: C/C++ + Erlang (clustering), Replication: Peer to Peer, fully\n\tconsistent, Misc: Transparent topology changes during operation, provides memcached-compatible\n\tcaching buckets, commercially supported version available,\n\tLinks: \u00bb Wiki,\n\t\u00bb\n\t\tArticle",
+				"name": "Couchbase Server",
+				"url": "http://www.couchbase.com/"
+			},
+			{
+				"content": "API: JSON,\n\t\tProtocol: REST,\n\t\tQuery Method: MapReduceR of JavaScript Funcs, Replication: Master Master,\n\t\tWritten in: Erlang, Concurrency: MVCC, Misc: \nLinks:\n\t\t\u00bb 3 CouchDB books , \u00bb Couch Lounge\n\t\t(partitioning / clusering), \u00bb Dr. Dobbs",
+				"name": "CouchDB",
+				"url": "http://couchdb.apache.org/"
+			},
+			{
+				"content": "API: protobuf-based, Query Method: unified chainable query language\n\t\t(incl. JOINs, sub-queries, MapReduce, GroupedMapReduce); Replication:\n\t\tSync and Async Master Slave with per-table acknowledgements, Sharding:\n\t\tguided range-based, Written in: C++, \n\t\tConcurrency: MVCC. Misc: log-structured storage engine with concurrent incremental garbage compactor",
+				"name": "RethinkDB",
+				"url": "http://www.rethinkdb.com/"
+			},
+			{
+				"content": "API: BSON,\n\t\tProtocol: C,\n\t\tQuery Method: dynamic object-based language,\n\t\tReplication: Master Slave & Auto-Sharding,\n    Written in: C++,\n\t\tMisc: Indexing, Large Object Store, Transaction, Free + Commercial License,\n\t\tBenchmark, Code",
+				"name": "SequoiaDB",
+				"url": "http://www.sequoiadb.com/en/index.php?p=index&j=2"
+			},
+			{
+				"content": ".Net solution. Provides HTTP/JSON\n\t\taccess. LINQ\n\t\tqueries & Sharding\n\t\tsupported. \u00bb Misc",
+				"name": "RavenDB",
+				"url": "http://github.com/ravendb/ravendb"
+			},
+			{
+				"content": "(developer+commercial) \n\tAPI: JSON, XML, Java \n\tProtocols: HTTP, REST \n\tQuery Method: Full Text Search and Structured Query, XPath, XQuery, Range, Geospatial,\n\tBitemporal \n  Written in: C++ \n\tConcurrency: Shared-nothing cluster, MVCC \n\tMisc: Petabyte-scalable and elastic (on premise in the cloud), ACID + XA transactions, \n\tauto-sharding, failover, master slave replication (clusters), replication (within cluster), high\n\tavailablity, disaster recovery, full and incremental backups, \n\tgovernment grade security at the doc level, developer community \u00bb",
+				"name": "MarkLogic Server",
+				"url": "http://www.marklogic.com/"
+			},
+			{
+				"content": "(freeware+commercial) API: XML, PHP, Java, .NET Protocols: HTTP, REST, native\n\t\tTCP/IP Query Method: full text search, XML, range and Xpath queries; Written in\n\t\tC++ Concurrency: ACID-compliant, transactional, multi-master cluster Misc:\n\t\tPetabyte-scalable document store and full text search engine. Information ranking. Replication. Cloudable.",
+				"name": "Clusterpoint Server",
+				"url": "http://www.clusterpoint.com/"
+			},
+			{
+				"content": "Object Document Mapper for JSON-Documents written in pure JavaScript.\n        It queries the collections with a gremlin-like DSL that uses MongoDB's API methods, but also provides joining.\n        The collections extend the native array objects, which gives the overall ODM a good performance. Queries 500.000 elements in less then a second.",
+				"name": "JSON ODM",
+				"url": "https://github.com/konsultaner/jsonOdm"
+			},
+			{
+				"content": "NoSQL database for Node.js in pure javascript. It implements the most commonly used subset of MongoDB's API and is quite fast (about 25,000 reads/s on a 10,000 documents collection with indexing).",
+				"name": "NeDB",
+				"url": "https://github.com/louischatriot/nedb"
+			},
+			{
+				"content": "API: Java & http,\n\t\tProtocol: http,\n\t\tLanguage: Java,\n\t\tQuerying: Range queries, Predicates, Replication: Partitioned with consistent\n\t\thashing, Consistency: Per-record\n\t\tstrict consistency, Misc: Based on Terracotta",
+				"name": "Terrastore",
+				"url": "http://code.google.com/p/terrastore/"
+			},
+			{
+				"content": "Architected to unify the best of search engine, NoSQL and NewSQL DB technologies. API: REST and many languages. Query method: SQL. Written in C++. Concurrency: MVCC. Misc: ACID transactions, data distribution via consistent hashing, static and dynamic schema support, in-memory processing. Freeware + Commercial License",
+				"name": "AmisaDB:",
+				"url": "http://www.amisalabs.com/"
+			},
+			{
+				"content": "Lightweight open source document database written in Java for high performance, runs in-memory, supports Android. \n    API: JSON, Java\n    Query Method: REST OData Style Query language, Java fluent Query API  \n    Concurrency: Atomic document writes\n    Indexes: eventually consistent indexes",
+				"name": "JasDB",
+				"url": "http://www.oberasoftware.com/"
+			},
+			{
+				"content": "JSON based, Document store database with compiled .net map functions and automatic hybrid\n\t\tbitmap indexing and LINQ query filters",
+				"name": "RaptorDB",
+				"url": "http://www.codeproject.com/Articles/375413/RaptorDB-the-Document-Store"
+			},
+			{
+				"content": "djonDB API: BSON, Protocol: C++,\n\tQuery Method: dynamic queries and map/reduce, Drivers:\n\tJava, C++, PHP Misc: ACID compliant, Full shell console over google v8 engine, djondb \n\t\trequirements are submited by users, not market. License: GPL and commercial",
+				"name": "djondb",
+				"url": "http://djondb.com"
+			},
+			{
+				"content": "Embedded JSON database engine based on tokyocabinet.\n  API: C/C++, C# (.Net, Mono), Lua, Ruby, Python, Node.js binding,\t\n  Protocol: Native,\t  \t\n  Written in: C,  \t\n  Query language: mongodb-like dynamic queries,  \t\n  Concurrency: RW locking, transactional ,\t  \t\n  Misc: Indexing, collection level rw locking, collection level transactions, collection joins.,  \t\n  License: LGPL",
+				"name": "EJDB",
+				"url": "http://ejdb.org/"
+			},
+			{
+				"content": "DensoDB is a new NoSQL document database. Written for .Net environment in c# language.\nIt\u2019s simple, fast and reliable. Source",
+				"name": "densodb",
+				"url": "http://www.densodb.net/"
+			},
+			{
+				"content": "A Document Store on top of SQL-Server.",
+				"name": "SisoDB",
+				"url": "http://www.sisodb.com/"
+			},
+			{
+				"content": "For small online databases, PHP / JSON interface, implemented in PHP.",
+				"name": "SDB",
+				"url": "http://pagenotes.com/wordpress/2011/12/08/sdb/"
+			},
+			{
+				"content": "Node.js asynchronous NoSQL embedded  database for small websites or projects. Database supports: insert, update, remove, drop and supports views (create, drop, read). Written in JavaScript, no dependencies, implements small concurrency model.",
+				"name": "NoSQL embedded db",
+				"url": "https://github.com/petersirka/nosql"
+			},
+			{
+				"content": "(please help provide more facts!) Uses Apache Thrift\n\t\tto integrate multiple backend databases as BerkeleyDB, Disk, MySQL, S3.",
+				"name": "ThruDB",
+				"url": "http://code.google.com/p/thrudb/"
+			},
+			{
+				"content": "Transactional embedded database, it can embed into mobile, desktop and web applications,\n\t\tsupports on-disk and in-memory storages. API: Java,C# (Android, Mono, Xamarin, Unity3D).\n\t\t\t\tQuery Method: SQL-like and KeyValue. Written In: Java, C#. Replication: MasterSlave, MasterMaster.",
+				"name": "iBoxDB",
+				"url": "http://www.iboxdb.com"
+			},
+			{
+				"content": "API: Java/.NET.\n\t\tWritten in: Java. Replication: Master/Slave. \n\t\tLicense: AGLP. Historical queries. ACID. Schemaless.\n\t\tConcurrency: STM and persistent data structure. \nAppend-only storage. Encrypted storage. Flexible durability control. \nSecondary & composite indexes. Transparently serializes Java/.NET objects.",
+				"name": "BergDB",
+				"url": "http://www.bergDB.com"
+			},
+			{
+				"content": "Cloud based, open-source, zero-config. Based on CouchDB and BigCouch.",
+				"name": "IBM Cloudant",
+				"url": "https://cloudant.com"
+			}
+		],
+		"name": "Document Store"
+	},
+	"EventSourcing": {
+		"entries": [
+			{
+				"content": "",
+				"name": "Event Store",
+				"url": "http://geteventstore.com/"
+			}
+		],
+		"name": "Event Sourcing"
+	},
+	"GraphDatabases": {
+		"entries": [
+			{
+				"content": "API: lots of langs,\n\t\tProtocol: Java embedded / REST, Query Method: SparQL, nativeJavaAPI, JRuby,\n\t\tReplication: typical MySQL style\n\t\t\tmaster/slave,\n\t\tWritten in: Java, Concurrency: non-block reads, writes locks involved\n\t\t\tnodes/relationships until commit,\n\t\tMisc: ACID\n\t\tpossible, Links: Video \u00bb, Blog \u00bb",
+				"name": "Neo4J",
+				"url": "http://www.neo4j.org/"
+			},
+			{
+				"content": "(Doc Store & GraphDB & Key-Value. More details in Category Multimodel Databases)",
+				"name": "ArangoDB, OrientDB",
+				"url": "http://www.arangoDB.com/"
+			},
+			{
+				"content": "(by Objectivity) API: Java,\n\t\tProtocol: Direct Language Binding, Query Method: Graph Navigation API,\nPredicate Language Qualification, Written in: Java (Core C++),\n\t\tData Model: Labeled Directed Multi Graph, Concurrency: Update locking on subgraphs,\n\t\t\tconcurrent non-blocking ingest, Misc: Free for Qualified Startups.",
+				"name": "Infinite Graph",
+				"url": "http://www.infinitegraph.com/"
+			},
+			{
+				"content": "(former DEX):\n\t\tAPI: Java, .NET, C++, Python, Objective-C, Blueprints Interface\n\t\tProtocol: Embedded,\n\t\tQuery Method: as above + Gremlin (via Blueprints),\n\t\tWritten in: C++,\n\t\tData Model: Labeled Directed Attributed Multigraph,\n\t\tConcurrency: yes,\n\t\tMisc: ACID possible, Free community edition up to 1 Mio objects,\n\t\tLinks: Intro\n\t\t\u00bb,\n\t\tTechnical Overview\n\t\t\u00bb",
+				"name": "Sparksee",
+				"url": "http://www.sparsity-technologies.com/dex.php"
+			},
+			{
+				"content": ":\n\tAPI: Java, Blueprints, Gremlin, Python, Clojure Protocol: Thrift, RexPro(Binary), Rexster (HTTP/REST) Query Method: Gremlin, SPARQL Written In: Java Data Model: labeled Property Graph, directed, multi-graph adjacency list Concurrency: ACID Tunable C Replication: Multi-Master License: Apache 2 Pluggable backends: Cassandra, HBase, MapR M7 Tables, BDB, Persistit, Hazelcast Links: Titan User Group",
+				"name": "TITAN",
+				"url": "https://github.com/thinkaurelius/titan/wiki"
+			},
+			{
+				"content": "API: Java, http/REST, Protocol: as API + XPRISO, OpenID, RSS, Atom, JSON, Java\n\t\t\tembedded, Query Method: Web user interface with html, RSS, Atom, JSON output, Java\n\t\t\tnative,\n\t\tReplication: peer-to-peer,\n\t\tWritten in: Java,\n\t\tConcurrency: concurrent reads, write lock within one MeshBase, Misc: Presentation \u00bb",
+				"name": "InfoGrid",
+				"url": "http://infogrid.org/"
+			},
+			{
+				"content": "API: Java\n\t\t(and Java Langs), Written in:Java,\n\t\tQuery Method: Java\n\t\tor P2P, Replication: P2P,\n\t\tConcurrency: STM,\n\t\tMisc: Open-Source, Especially for AI and Semantic Web.",
+				"name": "HyperGraphDB",
+				"url": "http://www.kobrix.com/hgdb.jsp"
+			},
+			{
+				"content": "Sub-graph-based API, query language, tools & transactions.\nEmbedded Java, remote-proxy Java or REST.\nDistributed storage & processing. Read/write all Nodes.\nPermissions & Constraints frameworks. Object storage, vertex-embedded agents.\nSupports multiple graph models. Written in Java",
+				"name": "GraphBase",
+				"url": "http://graphbase.net/"
+			},
+			{
+				"content": "API: C#, Protocol: C# Language Binding, Query Method:\n   \tGraph Navigation API, Replication: P2P with Master Node,\n\t\tWritten in: C#, Concurrency: Yes (Transactional update in online query mode,\n\t\t\tNon-blocking read\n\t\t\tin Batch Mode) Misc: distributed in-memory storage, parallel graph computation\n\t\t\tplatform (Microsoft Research Project)",
+				"name": "Trinity",
+				"url": "http://research.microsoft.com/en-us/projects/trinity/"
+			},
+			{
+				"content": "API: Java, Python, Ruby, C#, Perl, Clojure, Lisp Protocol:\n\t\tREST,\n\t\tQuery Method: SPARQL and Prolog, Libraries:\n\t\tSocial Networking Analytics & GeoSpatial,\n\t\tWritten in: Common Lisp, Links: Learning Center\n\t\t\u00bb, Videos\n\t\t\u00bb",
+				"name": "AllegroGraph",
+				"url": "http://www.franz.com/agraph/"
+			},
+			{
+				"content": "A native, .NET, semantic web database with code first Entity Framework, LINQ\n\t\tand OData support. API: C#, Protocol: SPARQL\n\t\t\tHTTP, C#, Query Method: LINQ, SPARQL, Written in: C#",
+				"name": "BrightstarDB",
+				"url": "http://www.brightstardb.com/"
+			},
+			{
+				"content": "API: Java, Jini service discovery, Concurrency: very high\n\t\t\t(MVCC),\n\t\tWritten in: Java, Misc: GPL + commercial, Data: RDF data with inference, dynamic\n\t\t\tkey-range sharding of indices,\n\t\tMisc: Blog \u00bb (parallel database, high-availability architecture,\n\t\timmortal database with historical views)",
+				"name": "Bigdata",
+				"url": "http://www.systap.com/bigdata.htm"
+			},
+			{
+				"content": "RDF enterprise database management system. It is cross-platform and can be used with most programming languages.\n\t\tMain features: high performance, guarantee database transactions with ACID, secure with ACL's, SPARQL &\n\t\tSPARUL, ODBC & JDBC drivers, RDF & RDFS.\n\t\t\u00bb",
+				"name": "Meronymy",
+				"url": "http://www.meronymy.com/"
+			},
+			{
+				"content": "WhiteDB is a fast lightweight graph/N-tuples shared memory database library written in C with focus on speed, portability and ease of use. Both for Linux and Windows, dual licenced with GPLv3 and a free nonrestrictive royalty-free commercial licence.",
+				"name": "WhiteDB",
+				"url": "http://whitedb.org"
+			},
+			{
+				"content": "Hybrid DBMS covering the following models: Relational, Document, Graph",
+				"name": "OpenLink Virtuoso",
+				"url": "http://www.openlinksw.com/"
+			},
+			{
+				"content": "",
+				"name": "VertexDB",
+				"url": "http://www.dekorte.com/projects/opensource/vertexdb/"
+			},
+			{
+				"content": "by twitter \u00bb\n\u00bb",
+				"name": "FlockDB",
+				"url": "http://github.com/twitter/flockdb"
+			},
+			{
+				"content": "scalable, fast, consistent",
+				"name": "weaver",
+				"url": "http://weaver.systems"
+			},
+			{
+				"content": "",
+				"name": "BrightstarDB",
+				"url": "http://www.brightstardb.com/"
+			},
+			{
+				"content": "",
+				"name": "Execom IOG",
+				"url": "http://iog.codeplex.com"
+			},
+			{
+				"content": "Github \u00bb",
+				"name": "Fallen 8",
+				"url": "http://www.fallen-8.com/"
+			}
+		],
+		"name": "Graph Databases"
+	},
+	"Grid&CloudDatabaseSolutions": {
+		"entries": [
+			{
+				"content": "Oracle Coherence offers distributed, replicated, multi-datacenter, tiered (off-heap/SSD) and near (client) caching. It provides distributed processing, querying, eventing, and map/reduce, session management, and prorogation of database updates to caches. Operational support provided by a Grid Archive deployment model.",
+				"name": "Oracle Coherence",
+				"url": "http://www.oracle.com/technetwork/middleware/coherence/overview/index.html"
+			},
+			{
+				"content": "Popular SpaceBased Grid Solution.",
+				"name": "GigaSpaces",
+				"url": "http://www.gigaspaces.com/"
+			},
+			{
+				"content": "GemFire offers in-memory globally distributed data management with dynamic scalability, very high performance and granular control supporting the most demanding applications.  Well integrated with the Spring Framework, developers can quickly and easily provide sophisticated data management for applications.  With simple horizontal scale-out, data latency caused by network roundtrips and disk I/O can be avoided even as applications grow.",
+				"name": "GemFire",
+				"url": "http://www.vmware.com/products/application-platform/vfabric-gemfire"
+			},
+			{
+				"content": "scalable, highly available data grid platform, open source,\n\t\twritten in Java.",
+				"name": "Infinispan",
+				"url": "http://www.jboss.org/infinispan.html"
+			},
+			{
+				"content": "NOSQL Data Integration Environment, can integrate relational, object, BigData \u2013 NOSQL easily and without\n\t\tany SQL.",
+				"name": "Queplix",
+				"url": "http://www.queplix.com"
+			},
+			{
+				"content": "Hazelcast is a in-memory data grid that offers distributed data in Java with dynamic scalability under the Apache 2 open source license. It provides distributed data structures in Java in a single Jar file including hashmaps, queues, locks, topics and an execution service that allows you to simply program these data structures as pure java objects, while benefitting from symmetric multiprocessing and cross-cluster shared elastic memory of very high ingest data streams and very high transactional loads.",
+				"name": "Hazelcast",
+				"url": "http://www.hazelcast.com/"
+			},
+			{
+				"content": "A shared\n     nothing, document-oriented cluster data store. Accessed via SQL\n     and has builtin BLOB\n     support. Uses the cluster state implementation and node\n     discovery of Elasticsearch.\n     License: Apache 2.0,\n     Query Method: SQL,\n     Clients: HTTP (REST), Python, Java (JDBC or native),\n                      Ruby, JS, Erlang,\n     Replication + Sharding: automatic and configurable,\n     written in: Java,\n     \u00bb Crate Data GitHub Project,\n     \u00bb Documentation.",
+				"name": "Crate Data ",
+				"url": "https://crate.io/"
+			}
+		],
+		"name": "Grid & Cloud Database Solutions"
+	},
+	"KeyValue/TupleStore": {
+		"entries": [
+			{
+				"content": "Automatic ultra scalable NoSQL DB based on fast SSDs. Multiple Availability Zones. Elastic MapReduce Integration. Backup to S3 and much more...",
+				"name": "DynamoDB",
+				"url": "http://aws.amazon.com/dynamodb/"
+			},
+			{
+				"content": "Collections of free form entities (row key, partition key, timestamp). Blob and Queue Storage available, 3 times\n\tredundant. Accessible via REST or ATOM.",
+				"name": "Azure Table Storage",
+				"url": "http://msdn.microsoft.com/en-us/library/dd179423.aspx"
+			},
+			{
+				"content": "API: JSON,\n\tProtocol: REST,\n\tQuery Method: MapReduce term matching , Scaling: Multiple Masters; Written in:\n\tErlang,\n\tConcurrency: eventually consistent (stronger then MVCC via Vector Clocks)",
+				"name": "Riak",
+				"url": "http://basho.com/products/#riak"
+			},
+			{
+				"content": "API:\n\tTons of languages,\n\tWritten in: C,\n\tConcurrency: in memory\n\tand saves asynchronous disk after a defined time. Append only mode\n\tavailable. Different kinds of fsync policies. Replication: Master / Slave,\n\tMisc: also lists, sets, sorted sets, hashes, queues. Cheat-Sheet:\n\t\u00bb, great slides\n\t\u00bb Admin UI\n\t\u00bb From the Ground up\n\t\u00bb",
+				"name": "Redis",
+				"url": "http://redis.io"
+			},
+			{
+				"content": "Fast and web-scale database. RAM or SSD. Predictable performance; achieves 2.5 M TPS (reads and\n\twrites), 99% under 1 ms. Tunable consistency. Replicated, zero configuration, zero downtime,\n\tauto-clustering, rolling upgrades, Cross Datacenter Replication (XDR). Written in: C. APIs: C, C#,\n\tErlang, Go, Java, Libevent, Node, Perl, PHP, Python, Ruby. Links:\n\tCommunity, \n\tDevelopment,\n\tSlides, \n\t2.5M TPS on 1 node at Intel,\n\t1M TPS on AmazonWS,\n\t1M TPS w/ SSDs on 1 Server,\n\tCombating Memory Fragmentation",
+				"name": "Aerospike",
+				"url": "http://www.aerospike.com/"
+			},
+			{
+				"content": "Fast\n\t& Batch updates. DB from Google.\n\tWritten in C++.\n\tBlog \u00bb,\n\thot Benchmark \u00bb, Article \u00bb\n\t(in German). Java access.",
+				"name": "LevelDB",
+				"url": "http://code.google.com/p/leveldb/"
+			},
+			{
+				"content": "API: C++. Written in C++.\n\tFacebook`s improvements to Google`s LevelDB to speed throughput\n\tfor datasets larger than RAM. Embedded solution.",
+				"name": "RocksDB",
+				"url": "http://rocksdb.org"
+			},
+			{
+				"content": "API: Many languages, Written in: C, Replication: Master / Slave,\n\tConcurrency: MVCC,\n\tLicense: Sleepycat,\n\tBerkeley DB Java\n\t\tEdition: API: Java, Written in: Java,\n\tReplication: Master / Slave,\n\tConcurrency: serializable transaction isolation, License: Sleepycat",
+				"name": "Berkeley DB",
+				"url": "http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html"
+			},
+			{
+				"content": "Oracle NoSQL Database is a distributed key-value database. It is designed to provide highly reliable, scalable and available data storage across a configurable set of systems that function as storage nodes.\nNoSQL and the Enterprise Data is stored as key-value pairs, which are written to particular storage node(s), based on the hashed value of the primary key. Storage nodes are replicated to ensure high availability, rapid failover in the event of  a node failure and optimal load balancing of queries. API: Java/C.",
+				"name": "Oracle NOSQL Database",
+				"url": "http://www.oracle.com/technetwork/database/database-technologies/nosqldb/overview/index.html"
+			},
+			{
+				"content": "Immediate consistency sharded KV store with an eventually consistent AP\n\tstore bringing eventual consistency issues down to the\n\ttheoretical minimum. It features efficient record coalescing.\n\tGenieDB speaks SQL and co-exists / do intertable\n\tjoins with\n\tSQL RDBMs.",
+				"name": "GenieDB",
+				"url": "http://www.geniedb.com/"
+			},
+			{
+				"content": "API: Get,Put,Delete,\n\tProtocol: Native, HTTP,\n\tFlavor: Embedded, Network, Elastic Cache, Replication: P2P based Network Overlay,\n\tWritten in: C++, Concurrency:\n\t?,\n\tMisc: robust, crash proof, Elastic, throw machines to scale linearly, Btree/Ehash",
+				"name": "BangDB",
+				"url": "http://www.iqlect.com/"
+			},
+			{
+				"content": "API: Java & simple RPC to vals, Protocol: internal, Query Method: M/R\n\tinside value objects, Scaling: every node is master for its slice of namespace, Written\n\tin: Java, Concurrency: serializable transaction isolation,",
+				"name": "Chordless",
+				"url": "http://sourceforge.net/projects/chordless/"
+			},
+			{
+				"content": "(please help provide more facts!) Written in: Erlang, Replication: Strong consistency over\n\treplicas, Concurrency: non blocking Paxos.",
+				"name": " Scalaris",
+				"url": "http://code.google.com/p/scalaris/"
+			},
+			{
+				"content": "Links: nice talk\n\t\u00bb, slides\n\t\u00bb, Misc:\n\tKyoto Cabinet \u00bb",
+				"name": "Tokyo Cabinet / Tyrant",
+				"url": "http://fallabs.com/tokyocabinet/"
+			},
+			{
+				"content": "API / Protocol: http\n\t(text, html, JSON), C, C++, Python, Java, Ruby, PHP,Perl. Concurrency:\n\tPaxos.",
+				"name": "Scalien",
+				"url": "http://scalien.com/"
+			},
+			{
+				"content": "Open-Source implementation of Amazons Dynamo Key-Value Store.",
+				"name": "Voldemort",
+				"url": "http://project-voldemort.com/"
+			},
+			{
+				"content": "Open-Source\n\timplementation of Amazons Dynamo Key-Value Store. written in Erlang.\n\tWith \"data partitioning, versioning, and read repair, and user-provided\n\tstorage engines provide persistence and query processing\".",
+				"name": "Dynomite",
+				"url": "http://wiki.github.com/cliffmoon/dynomite/dynomite-framework"
+			},
+			{
+				"content": "Open Source Amazon Dnamo implementation, Misc: slides",
+				"name": "KAI",
+				"url": "http://sourceforge.net/projects/kai/"
+			},
+			{
+				"content": "API: Memcache protocol\n\t(get, set, add, replace, etc.), Written in: C, Data\n\tModel: Blob,\n\tMisc: Is Memcached writing to BerkleyDB.",
+				"name": "MemcacheDB",
+				"url": "http://memcachedb.org/"
+			},
+			{
+				"content": "API: C, C++, C#, Java, PHP, Perl, Written in: C,C++. Misc:\n\tTransaction logging. Client/server. Embedded. SQL wrapper (not core). Been\n\taround since 1979.",
+				"name": "Faircom C-Tree",
+				"url": "http://www.faircom.com/nosql"
+			},
+			{
+				"content": "Key-Value database that was written as part of SQLite4, They claim it is faster then LevelDB.  Instead of supporting custom comparators, they have a recommended data encoding for keys that allows various data types to be sorted.",
+				"name": "LSM",
+				"url": "http://www.sqlite.org/src4/artifact/41b08c1d31c156d3916558aad89b7e7ae8a381c5"
+			},
+			{
+				"content": ": \n\tA fast, efficient on-disk data store for Windows Phone 8, Windows RT, Win32 (x86 & x64) and .NET. Provides for key-value and multiple segmented key access. APIs for C#, VB, C++, C and HTML5/JavaScript. Written in pure C for high performance and low footprint. Supports async and synchronous operations with 2GB max record size.",
+				"name": "KitaroDB",
+				"url": "http://www.kitarodb.com/"
+			},
+			{
+				"content": ":\n    (embedded solution) API: C, C++, .NET, Java, Erlang.\n    Written in C,C++. Fast key/value store with a\n    parameterized B+-tree. Keys are \"typed\" (i.e. 32bit integers, floats,\n    variable length or fixed length binary data). Has built-in analytical\n    functions like SUM, AVERAGE etc.",
+				"name": "upscaledb",
+				"url": "http://upscaledb.com/"
+			},
+			{
+				"content": "API: C#, Written in C#, embedded solution, generic XTable<TKey,TRecord>\n\timplementation,\n\tACID transactions, snapshots, table versions, shared records, vertical data compression, custom compression,\n\tcomposite & custom primary\n\tkeys, available backend file system layer, works over multiple volumes, petabyte scalability, LINQ.",
+				"name": "STSdb",
+				"url": "http://stsdb.com/"
+			},
+			{
+				"content": "API: C, Perl, PHP, Python, Java and Ruby. Written in: Objective\n\t\tC\n\t,Protocol: asynchronous binary, memcached, text (Lua console). Data model:\n\tcollections of dimensionless tuples, indexed using primary + secondary keys.\n\tConcurrency: lock-free in memory, consistent with disk (write ahead log).\n\tReplication: master/slave, configurable.\n\tOther: call Lua stored procedures.",
+				"name": "Tarantool/Box",
+				"url": "https://github.com/mailru/tarantool"
+			},
+			{
+				"content": "API: C, Query Method: MQL, native API, Replication:\n\tDFS Replication, Consistency: strict consistency Written\n\tin: C.",
+				"name": "Maxtable",
+				"url": "http://code.google.com/p/maxtable/"
+			},
+			{
+				"content": "very high-performance associative database. Highly scalable. API: C, C++, Java, Python and (limited) RESTful Protocol: binary Query method: key-value, iteration, Replication: Distributed, Written in: C++ 11/Assembly, Concurrency: ACID,  Misc: built-in data compression, native support for FreeBSD, Linux and Windows. License: Commercial.",
+				"name": "quasardb",
+				"url": "https://www.quasardb.net/"
+			},
+			{
+				"content": "For geolocalized apps. Concurrency: in-memory with asynchronous disk writes.\n\tAPI: HTTP/JSON. Written in: C.\n\tLicense: BSD.",
+				"name": "Pincaster",
+				"url": "http://github.com/jedisct1/Pincaster"
+			},
+			{
+				"content": "A pure key value store with optimized b+tree and murmur\n\thashing. (In the near future it will be a JSON document database much like\n\tmongodb and couchdb.)",
+				"name": "RaptorDB",
+				"url": "http://www.codeproject.com/KB/database/RaptorDB.aspx"
+			},
+			{
+				"content": "peer-to-peer distributed in-memory (with persistence) datagrid that\n\timplements and expands on the concept of the Tuple Space. Has SQL\n\tQueries and ACID (=> NewSQL).",
+				"name": "TIBCO Active Spaces",
+				"url": "https://ssl.tibcommunity.com/blogs/activespaces"
+			},
+			{
+				"content": "Key-Value concept. Variable number of keys per record. Multiple key\n\tvalues, Hierarchic records. Relationships. Diff. record types in same\n\tDB. Indexing: B*-Tree. All aspects configurable. Full scripting\n\tlanguage. Multi-user ACID. Web interfaces (PHP, Perl, ActionScript)\n\tplus Windows client.",
+				"name": "allegro-C",
+				"url": "http://www.allegro-c.de/"
+			},
+			{
+				"content": "A fast key-value Database (using LSM-Tree storage engine), API: Redis protocol\n\t(SET,MSET,GET,MGET,DEL etc.), Written in: ANSI C",
+				"name": "nessDB",
+				"url": "https://github.com/shuttler/nessDB"
+			},
+			{
+				"content": "Distributed searchable key-value store. Fast (latency &\n\tthroughput), scalable, consistent, fault tolerance, using hyperscpace\n\thashing. APIs for C, C++ and Python.",
+				"name": "HyperDex",
+				"url": "http://hyperdex.org/"
+			},
+			{
+				"content": "Fast, open source, shared memory (using memory mapped files e.g. in /dev/shm or on SSD), multi process, hash table, e.g. on an 8 core i7-3720QM CPU @ 2.60GHz using /dev/shm, 8 processes combined have a 12.2 million / 2.5 to 5.9 million TPS read/write using small binary keys to a hash filecontaining 50 million keys. Uses sharding internally to mitigate lock contention. Written in C.",
+				"name": "SharedHashFile",
+				"url": "https://github.com/simonhf/sharedhashfile"
+			},
+			{
+				"content": "Ultra-fast, ultra-compact key-value embedded data store developed by Symas for the OpenLDAP Project.\n\tIt uses memory-mapped files, so it has the read performance of a pure in-memory database while still offering the persistence of standard disk-based databases, and is only limited to the size of the virtual address space, (it is not limited to the size of physical RAM)",
+				"name": "Symas LMDB",
+				"url": "http://symas.com/mdb/"
+			},
+			{
+				"content": "Sophia is a modern embeddable key-value database designed for a high load environment. It has unique architecture that was created as a result of research and rethinking of primary algorithmical constraints, associated with a getting popular Log-file based data structures, such as LSM-tree. Implemented as a small C-written, BSD-licensed library.",
+				"name": "Sophia",
+				"url": "http://sphia.org"
+			},
+			{
+				"content": ".NET Open Source Distributed Cache. Written in C#. API .NET & Java. Query Parallel SQL Query, LINQ & Tags. Misc: Linear Scalability, High Availability, WAN Replication, GUI based Administration & Monitoring Tools, Messaging, Runtime Data Sharing, Cache & Item Level Events, Continuous Query & Custom Events, DB Dependencies & Expirations",
+				"name": "NCache",
+				"url": "http://www.alachisoft.com/ncache/"
+			},
+			{
+				"content": "Open Source In-Memory JCache compliant Data Grid. Written in Java. API Java, JCache JSR 107 & .NET. Query SQL & DB Synchronization. Misc: Linear Scalability, High Availability, WAN Replication, GUI based Administration & Monitoring Tools, Distributed Messaging, MapReduce, Entry Processor and Aggregator",
+				"name": "TazyGrid",
+				"url": "http://www.tayzgrid.com/"
+			},
+			{
+				"content": "Redis inspired K/V store for Python object serialization.",
+				"name": "PickleDB",
+				"url": "http://pythonhosted.org/pickleDB/"
+			},
+			{
+				"content": "(ErlangDB \u00bb)",
+				"name": "Mnesia",
+				"url": "http://www.erlang.org/doc/apps/mnesia/index.html"
+			},
+			{
+				"content": "(based on Tokyo Tyrant)",
+				"name": "LightCloud",
+				"url": "http://opensource.plurk.com/LightCloud/"
+			},
+			{
+				"content": "Hibari is a highly available, strongly consistent, durable, distributed\n\tkey-value data store",
+				"name": "Hibari",
+				"url": "http://hibari.sourceforge.net/"
+			},
+			{
+				"content": "Key-value store, B+tree. Lightning fast reads+fast bulk loads.\nMemory-mapped files for persistent storage with all the speed of an in-memory\ndatabase. No tuning conf required. Full ACID support.\nMVCC, readers run lockless. Tiny code, written in C, compiles to under 32KB of\nx86-64 object code. Modeled after the BerkeleyDB API for easy migration from\nBerkeley-based code. Benchmarks against LevelDB, Kyoto Cabinet, SQLite3, and\nBerkeleyDB are available, plus full paper and presentation slides.",
+				"name": "OpenLDAP",
+				"url": "http://highlandsun.com/hyc/mdb/"
+			},
+			{
+				"content": "High availability, concurrency-oriented event-based K/V database with transactions and\n\tcausal consistency. Protocol: MsgPack, API: Erlang, Elixir, Node.js.\n\tWritten in: Elixir, Github-Repo.",
+				"name": "Genomu",
+				"url": "http://genomu.com/"
+			},
+			{
+				"content": "BinaryRage is designed to be a lightweight ultra fast key/value store for .NET with no dependencies. Tested with more than 200,000 complex objects written to disk per second on a crappy laptop :-) No configuration, no strange driver/connector, no server, no setup - simply reference the dll and start using it in less than a minute.",
+				"name": "BinaryRage",
+				"url": "https://github.com/mchidk/BinaryRage"
+			},
+			{
+				"content": "Github Page \u00bb",
+				"name": "Elliptics",
+				"url": "http://www.ioremap.net/projects/elliptics/"
+			},
+			{
+				"content": "Professional, open-source, NoSql (embedded Key/Value storage), transactional, ACID-compliant, multi-threaded, object database management system for .NET 3.0> MONO. Written in C#.",
+				"name": "DBreeze",
+				"url": "http://dbreeze.codeplex.com"
+			},
+			{
+				"content": "API: Scala. Written in Scala.\nReplication: Replicas vote on writes and reads.\nSharding: Hashes keys onto array of replica cohorts.\nConcurrency: Optimistic + Multiversion Concurrency Control.\nProvides multirow atomic writes. Exposes optimistic concurrency through API\nto support HTTP Etags.\nEmbedded solution.",
+				"name": "TreodeDB",
+				"url": "http://https://github.com/Treode/store"
+			},
+			{
+				"content": "Key/Value DB written in Go.",
+				"name": "BoltDB",
+				"url": "https://github.com/boltdb/bolt"
+			},
+			{
+				"content": "Serenity database implements basic Redis commands and extends them with support of Consistent\n\tCursors, ACID transactions, Stored procedures, etc. The database is designed to store data bigger\n\tthen available RAM.",
+				"name": "Serenety",
+				"url": "http://serenitydb.org"
+			}
+		],
+		"name": "Key Value / Tuple Store"
+	},
+	"MultidimensionalDatabases": {
+		"entries": [
+			{
+				"content": "by Intersystems, multidimensional\n\t\tarray.Node.js\n\t\tAPI, array based APIs (Java / .NET), and a Java based document API.",
+				"name": "Globals:",
+				"url": "http://globalsdb.org/"
+			},
+			{
+				"content": "Postrelational\n\t\tSystem. Multidimensional array APIs, Object APIs, Relational Support\n\t\t(Fully SQL capable JDBC, ODBC, etc.) and Document APIs are new\n\t\tin\n\t\tthe upcoming 2012.2.x versions. Availible for\n\t\tWindows, Linux and OpenVMS.",
+				"name": "Intersystems Cache",
+				"url": "http://www.intersystems.com/"
+			},
+			{
+				"content": "API: M, C, Python, Perl,\n\tProtocol: native, inprocess C, Misc: Wrappers: M/DB for SimpleDB\n\tcompatible HTTP\n\u00bb, MDB:X\n\tfor XML \u00bb,\n\tPIP\n\tfor mapping to tables for SQL \u00bb,\n\tFeatures: Small footprint (17MB), Terabyte Scalability, Unicode\n\tsupport, Database encryption, Secure, ACID transactions (single node),\n\teventual consistency (replication), License: AGPL v3 on x86 GNU/Linux, Links: Slides\n\t\u00bb,",
+				"name": "GT.M",
+				"url": "http://fis-gtm.com/"
+			},
+			{
+				"content": "Array Data Model for Scientists,\n\t\t\u00bb paper, \u00bb poster,\n\t\t\u00bb\n\t\t\tHiScaBlog",
+				"name": "SciDB",
+				"url": "http://scidb.org/"
+			},
+			{
+				"content": ":\n\t\tMultidimensional arrays, API: M, C, Pascal, Perl,\n\t\t.NET, ActiveX, Java, WEB.\n\t\tAvailable for Windows and Linux.",
+				"name": "MiniM DB",
+				"url": "http://www.minimdb.com/"
+			},
+			{
+				"content": ":\n\t\tShort description: Rasdaman is a scientific database that allows to store and retrieve\n\t \tmulti-dimensional raster data (arrays) of unlimited size through an SQL-style query language.\n\t\tAPI: C++/Java, Written in C++, Query method: SQL-like query language rasql,\n\t\tas well as via OGC standards WCPS, WCS, WPS link2",
+				"name": "rasdaman",
+				"url": "http://www.rasdaman.org"
+			},
+			{
+				"content": ":\n\t\tis a new Realtime analytics database written in .NET C#.\n\t\tACID compliant. fluent .NET query API, Client / server or in-process.\n\t\tIn-memory and persistent mode.",
+				"name": "DaggerDB",
+				"url": "http://www.daggerdb.com/"
+			}
+		],
+		"name": "Multidimensional Databases"
+	},
+	"MultimodelDatabases": {
+		"entries": [
+			{
+				"content": "API:\nREST, Graph Blueprints, C#, D, Ruby, Python, Java, PHP, Go, Python, etc. \n\t\tData Model:\nDocuments, Graphs and Key/Values.\n                Protocol:\nHTTP using JSON.\n\t\tQuery Method:\ndeclarative query language (AQL), query by example.\n\t\tReplication:\nmaster-slave (m-m to follow), Sharding: automatic and configurable Written in: C/C++/Javascript (V8 integrated),\n\t\tConcurrency:\nMVCC, tuneable\n\t\tMisc:\nACID transactions, microservices framework \"Foxx\" (Javascript), many indices as secondary, fulltext, geo, hash, Skip-list, capped collections",
+				"name": "ArangoDB",
+				"url": "https://www.arangodb.com/"
+			},
+			{
+				"content": "API: REST, Binary Protocol, Java, Node.js, Tinkerpop Blueprints, Python, PHP, Go, Elixir, etc.,\n\t\tSchema: Has features of an Object-Database, DocumentDB, GraphDB and Key-Value DB,\n\t\tWritten in: Java,\n\t\tQuery Method: SQL, Gremlin, SparQL,\n\t\tConcurrency: MVCC, tuneable,\n\t\tIndexing: Primary, Secondary, Composite indexes with support for Full-Text and Spatial,\n\t\tReplication: Master-Master + sharding,\n\t\tMisc: Really fast, Lightweight, ACID with recovery.",
+				"name": "OrientDB",
+				"url": "http://orientdb.com/"
+			},
+			{
+				"content": "API: Many jvm languages, Protocol: Native + REST, Query Method: Datalog + custom extensions, Scaling: elastic via underlying DB (in-mem, DynamoDB, Riak, CouchBase, Infinispan, more to come), Written in: Clojure, Concurrency: ACID MISC: smart caching, unlimited read scalability, full-text search, cardinality, bi-directional refs 4 graph traversal, loves Clojure + Storm.",
+				"name": "Datomic",
+				"url": "http://www.datomic.com/"
+			},
+			{
+				"content": "Bought by Apple Inc. Not available any more.",
+				"name": "FoundationDB",
+				"url": "http://www.foundationdb.com/"
+			},
+			{
+				"content": "GraphDB + RDBMS + KV Store + Document Store. Alchemy Database is a\n\t\tlow-latency high-TPS NewSQL RDBMS embedded in the NOSQL datastore\n\t\tredis. Extensive datastore-side-scripting is provided via deeply\n\t\tembedded Lua. Bought and integrated with Aerospike.",
+				"name": "AlchemyDB",
+				"url": "http://code.google.com/p/alchemydatabase/"
+			},
+			{
+				"content": "CortexDB is a dynamic schema-less multi-model data base providing nearly all advantages of up to now known NoSQL data base types (key-value store, document store, graph DB, multi-value DB, column DB) with dynamic re-organization during continuous operations, managing analytical and transaction data for agile software configuration,change requests on the fly, self service and low footprint.",
+				"name": "CortexDB",
+				"url": "http://cortex-ag.com/cortexdoku/cms.php?i=206df578da20202020212024"
+			},
+			{
+				"content": "API:JDBC,SQL; WonderDB is fully transactional, distributed NewSQL database implemented in java based on relational architectures. So you can get best of both worlds, sql, joins and ease of use from SQL and distribution, replication and sharding from NoSQL movement. Tested performance is over 60K per node with Amazon m3.xlarge VM.",
+				"name": "WonderDB",
+				"url": "http://www.wonderdb.org"
+			}
+		],
+		"name": "Multimodel Databases"
+	},
+	"MultivalueDatabases": {
+		"entries": [
+			{
+				"content": "(UniVerse, UniData): MultiValue\n\t\tDatabases, Data Structure: MultiValued, Supports nested\n\t\tentities, Virtual Metadata, API: BASIC, InterCall,\n\t\tSocket, .NET and Java API's, IDE: Native, Record Oriented,\n\t\tScalability: automatic\n\t\ttable space allocation, Protocol: Client Server, SOA,\n\t\tTerminal Line, X-OFF/X-ON, Written in: C, Query Method: Native\n\t\tmvQuery, (Retrieve/UniQuery) and SQL,\n\t\tReplication: yes, Hot\n\t\tstandby, Concurrency: Record\n\t\tand File Locking (Fine and Coarse Granularity)",
+				"name": "U2",
+				"url": "http://www.rocketsoftware.com/u2"
+			},
+			{
+				"content": "API: Basic+,\n\t\t.Net, COM, Socket, ODBC, Protocol: TCP/IP, Named Pipes, Telnet,\n\t\tVT100. HTTP/S Query Method: RList, SQL & XPath Written in:\n\t\tNative 4GL, C, C++, Basic+, .Net,\n\t\tJava Replication: Hot Standby\n\t\tConcurrency: table &/or row locking, optionally transaction based & commit\n\t\t& rollback Data structure: Relational &/or\n\t\tMultiValue, supports nested entities Scalability: rows and tables size dynamically",
+				"name": "OpenInsight",
+				"url": "http://www.revelation.com/index.php/features"
+			},
+			{
+				"content": "(D3, mvBase, mvEnterprise) Data Structure: Dynamic multidimensional PICK data model, multi-valued, dictionary-driven, API: NET, Java, PHP, C++, Protocol: C/S, Written In: C, Query Method: AQL, SQL, ODBC, Pick/BASIC, Replication: Hot Backup, FFR, Transaction Logging + real-time replication, Concurrency: Row Level Locking, Connectivity: OSFI, ODBC, Web-Services, Web-enabled, Security: File level AES-128 encryption",
+				"name": "TigerLogic PICK",
+				"url": "http://www.tigerlogic.com/tigerlogic/pick/database/pickdatabase.jsp"
+			},
+			{
+				"content": "(Northgate IS):\n\t\tThe original MultiValue data set database, virtual machine, enquiry and\n\t\trapid development environment. Delivers ultra efficiency, scalability\n\t\tand resilience while extended for the web and with built-in auto\n\t\tsizing, failsafe and more. Interoperability includes Web Services, Java\n\t\tClasses, XML,\n\t\tActiveX, Sockets, C and, for those that have to\n\t\tinteroperate with the SQL\n\t\tworld, ODBC/JDBC\n\t\tand two-way transparent SQL data access.",
+				"name": "Reality",
+				"url": "http://www.northgate-reality.com/"
+			},
+			{
+				"content": "Supports nested data. Fully automated table space allocation. Concurrency\n\t\tcontrol via task locks, file locks & shareable/exclusive record\n\t\tlocks. Case insensitivity option. Secondary key indices. Integrated\n\t\tdata replication. QMBasic programming language for rapid development.\n\t\tOO programming integrated into QMBasic. QMClient connectivity from\n\t\tVisual Basic, PowerBasic, Delphi, PureBasic, ASP, PHP, C and more.\n\t\tExtended multivalue query language.",
+				"name": "OpenQM",
+				"url": "http://www.openqm.com/"
+			},
+			{
+				"content": "A high performance dbms that runs on IBM mainframes (IBM z/OS, z/VM, zVSE),\n\t\t+SQL interface with nested entity support\n\t\tAPI: native 4GL (SOUL + o-o support), SQL, Host Language (COBOL, Assembler, PL1) API, ODBC, JDBC, .net, Websphere MQ, Sockets\n\t\tScalability: automatic table space allocation, 64-bit support\n\t\tWritten in: IBM assembler, C\n\t\tQuery method: SOUL, SQL, RCL ( invocation of native language from client )\n\t\tConcurrency: record and file level locking\n\t\tConnectivity: TN3270, Telnet, Http",
+				"name": "Model 204 Database",
+				"url": "http://www.rocketsoftware.com/m204"
+			},
+			{
+				"content": "Hybrid database / search engine system with characteristics of multi-value, document, relational, XML and graph databases. Used in production since 1985 for high-performance search and retrieve solutions. Full-text search, text classification, similarity search, results ranking, real time facets, Unicode, Chinese word segmentation, and more. Platforms: Windows, Linux, AIX and Solaris. API: .NET, Java and C/C++. Query methods: native (CCL), SQL subset, XPath. Commercial.",
+				"name": "Tieto TRIP",
+				"url": "http://www.tieto.com/services/information-management/enterprise-content-management-services/multimedia-content-management-trip"
+			},
+			{
+				"content": "(by Microsoft) ISAM storage technology. Access using index or\n\t\tcursor navigation. Denormalized schemas, wide tables with sparse\n\t\tcolumns, multi-valued columns, and sparse and rich indexes. C# and\n\t\tDelphi drivers available. Backend for a number of MS Products as\n\t\tExchange.",
+				"name": "ESENT\n",
+				"url": "http://msdn.microsoft.com/en-us/library/windows/desktop/gg269259%28v=EXCHG.10%29.aspx"
+			},
+			{
+				"content": "more info \u00bb",
+				"name": "jBASE",
+				"url": "http://www.jbase.com/index.html"
+			}
+		],
+		"name": "Multivalue Databases"
+	},
+	"ObjectDatabases\u00bb": {
+		"entries": [
+			{
+				"content": "API:\n\t\tLanguages/Protocol:\n\t\tJava, C#, C++, Python. Schema: language class model (easy changable). Modes: always\n\t\tconsistent and eventually consistent \n\t\tReplication: synchronous fault tolerant and peer to peer asynchronous. Concurrency: optimistic\n\t\tand object based locks. Scaling: can add physical nodes on fly for scale out/in\nand migrate objects between nodes without impact to application code. Misc: MapReduce\n\t\tvia parallel SQL like query across logical database groupings.",
+				"name": "\nVersant",
+				"url": "http://www.versant.com"
+			},
+			{
+				"content": "API: Java, C#, .Net Langs, Protocol: language, Query Method: QBE (by\n\t\tExample), Soda, Native Queries, LINQ (.NET),\n\t\tReplication: db4o2db4o & dRS to relationals, Written in: Java,\n\t\tCuncurrency: ACID serialized, Misc: embedded lib, Links:\n\t\tDZone Refcard #53 \u00bb,\n\t\tBook \u00bb,",
+				"name": "db4o",
+				"url": "http://db4o.com"
+			},
+			{
+				"content": "API:\n\t\tLanguages: Java, C#, C++, Python, Smalltalk, SQL access through ODBC. Schema: native\n\t\tlanguage class model, direct support for references, interoperable across all language bindings. 64 bit unique\n\t\tobject ID (OID) supports multi exa-byte. Platforms: 32 and 64 bit Windows, Linux, Mac OSX,\n\t\t*Unix. Modes: always consistent (ACID). Concurrency: locks at cluster of\n\t\tobjects (container) level. Scaling: unique distributed architecture, dynamic addition/removal\n\t\tof clients & servers, cloud environment ready. Replication: synchronous with quorum fault\n\t\ttolerant across peer to peer partitions.",
+				"name": "\nObjectivity",
+				"url": "http://www.objectivity.com/"
+			},
+			{
+				"content": "API: Java, C, C++, Smalltalk\n\t\tSchema: language class model\n\t\tPlatforms: Linux, AIX, Solaris, Mac OSX, Windows clients\n\t\tModes: always consistent (ACID)\n\t\tReplication: shared page cache per node, hot standby failover\n\t\tConcurrency: optimistic and object based locks\n\t\tScaling: arbitrarily large number of nodes\n\t\tMisc: SQL via GemConnect",
+				"name": "\nGemStone/S",
+				"url": "http://gemtalksystems.com/"
+			},
+			{
+				"content": "API: C# (.NET languages),\n\t\tSchema: Native language class model, Query method: SQL, Concurrency: Fully\n\t\tACID compliant, Storage: In-memory with transactions secured on disk, Reliability:\n\t\tFull checkpoint recovery, Misc: VMDBMS - Integrating the DBMS with the virtual machine\n\t\tfor maximal performance and ease of use.",
+				"name": "\nStarcounter",
+				"url": "http://www.starcounter.com/"
+			},
+			{
+				"content": "API: Java,Java ME,C#,Mono. Query method: OO via Perst collections, QBE, Native Queries,\n\t\tLINQ, native full-text search, JSQL Replication: Async+sync (master-slave) Written in:\n\t\tJava, C#. Caching: Object cache (LRU, weak, strong), page pool, in-memory database Concurrency: Pessimistic+optimistic\n\t\t(MVCC) + async or sync (ACID) Index types: Many tree models + Time\n\t\tSeries. Misc: Embedded lib., encryption, automatic recovery, native full text search, on-line or \t\toff-line backup.",
+				"name": "\nPerst",
+				"url": "http://www.mcobject.com/perst"
+			},
+			{
+				"content": "Written in100% pure C#, Concurrency: \t  ACID/transactional, pessimistic/optimistic locking, Misc: compact data, B-tree indexes,\n\t  LINQ queries, 64bit object identifiers (Oid) supporting multi millions of\n\t  databases and high performance. Deploy with a single DLL of around 400KB.",
+				"name": "VelocityDB",
+				"url": "http://www.velocitydb.com/"
+			},
+			{
+				"content": "Written in: 100% C#,\n\t\tThe HSS DB v3.0 (HighSpeed-Solutions Database), is a client based, zero-configuration, auto schema evolution, acid/transactional, LINQ Query, DBMS for Microsoft .NET 4/4.5, Windows 8 (Windows Runtime), Windows Phone 7.5/8, Silverlight 5, MonoTouch for iPhone and Mono for Android",
+				"name": "HSS Database",
+				"url": "http://highspeed-solutions.net/db.aspx"
+			},
+			{
+				"content": "API:\n\t\tPython,\n\t\tProtocol:\n\t\tInternal, ZEO,\n\t\tQuery\n\t\tMethod: Direct object access, zope.catalog, gocept.objectquery,\n\t\tReplication: ZEO, ZEORAID, RelStorage\n\t\tWritten in: Python, C Concurrency: MVCC, License:\n\t\tZope Public License (OSI approved)\n\t\tMisc: Used in production since 1998",
+				"name": "\nZODB",
+				"url": "http://zodb.org/"
+			},
+			{
+				"content": "Smalltalk DB, optimistic locking, Transactions, etc.",
+				"name": "Magma",
+				"url": "http://wiki.squeak.org/squeak/2665"
+			},
+			{
+				"content": "API: Python - ZODB \"Storage\" interface, Protocol: native, Query Method:\n\t\ttransactional key-value,\n\t\tReplication: native,\n\t\tWritten in: Python,\n\t\tConcurrency: MVCC\n\t\t(internally), License: GPL \"v2 or later\", Misc: Load balancing, fault tolerant, hot-extensible.",
+				"name": "NEO",
+				"url": "http://www.neoppod.org/"
+			},
+			{
+				"content": "An object database engine that currently runs on .NET, Mono, Silverlight,Windows\n\t\tPhone 7, MonoTouch, MonoAndroid, CompactFramework; It has\n\t\timplemented a Sync Framework Provider and can be synchronized with MS\n\t\tSQLServer; Query\n\t\tmethod:LINQ;",
+				"name": "siaqodb",
+				"url": "http://siaqodb.com/"
+			},
+			{
+				"content": "is a lightweight object-oriented database for .NET with support for\n\t\tSilverlight and Windows Phone 7. It features in-memory keys and\n\t\tindexes, triggers, and support for compressing and encrypting the\n\t\tunderlying data.",
+				"name": "Sterling",
+				"url": "http://sterling.codeplex.com/"
+			},
+			{
+				"content": "Stores .NET classes in a datapool. Build for speed. SQL Server\n\t\tintegration. LINQ support.",
+				"name": "Morantex",
+				"url": "http://www.morantex.com/"
+			},
+			{
+				"content": "EyeDB is an LGPL OODBMS,\n\t\tprovides an advanced object model (inheritance, collections, arrays,\n\t\tmethods, triggers, constraints, reflexivity), an object definition\n\t\tlanguage based on ODMG ODL, an object query and manipulation language\n\t\tbased on ODMG OQL. Programming interfaces for C++ and Java.",
+				"name": "EyeDB",
+				"url": "http://www.eyedb.org/"
+			},
+			{
+				"content": "Object-Oriented Database designed to support the maintenance and\n\t\tsharing of knowledge bases. Optimized for pointer-intensive data\n\t\tstructures used by semantic networks, frame systems, and many\n\t\tintelligent agent applications. Written in: ANSI C.",
+				"name": "FramerD",
+				"url": "http://www.framerd.org/"
+			},
+			{
+				"content": "Ninja Database Pro is a .NET ACID compliant relational object database that\n\t\tsupports transactions, indexes, encryption, and compression. It currently\n\t\truns on .NET Desktop Applications, Silverlight Applications, and Windows Phone 7 Applications.",
+				"name": "Ninja Database Pro",
+				"url": "http://www.kellermansoftware.com/p-43-ninja-net-database-pro.aspx"
+			},
+			{
+				"content": "API: C#, .Net, Mono, Windows Phone 7, Silverlight, \n\tProtocol: language, Query Method: Soda, LINQ (.NET), \n\tWritten in: C#, Misc: embedded lib, indexes, triggers, handle circular ref,\n\tLinqPad support, Northwind sample, refactoring, in-memory database,\n\tTransactions Support (ACID) and more, Documentation: \u00bb",
+				"name": "NDatabase",
+				"url": "http://ndatabase.wix.com/home"
+			},
+			{
+				"content": "Language and Object Database, can be viewed as a Database Development\n\t\tFramework. Schema: native language class model with relations + various indexes.\n\t\tQueries: language build in + a small Prolog like DSL Pilog. Concurrency: synchronization\n\t\t+ locks.\n\t\tReplication, distribution and fault tolerance is not implemented per default but can be implemented with native\n\t\tfunctionality. Written in C (32bit) or assembly (64bit).",
+				"name": "PicoLisp",
+				"url": "http://www.picolisp.com"
+			},
+			{
+				"content": "API: Haskell,\n\tQuery Method: Functional programming,\n\tWritten in: Haskell,\n\tConcurrency: ACID, GHC concurrent runtime,\n\tMisc: In-memory with disk-based log, supports remote access\n\tLinks: Wiki \u00bb,\n\tDocs \u00bb",
+				"name": "acid-state",
+				"url": "http://acid-state.seize.it"
+			},
+			{
+				"content": "API: Java (JPA / JDO)\nQuery method: JPA JPQL, JDO JDOQL\nReplication: Master-slave\nWritten in: 100% Pure Java\nCaching: Object cache, Data cache, Page cache, Query Result cache, Query program cache\nConcurrency: Object level locking (pessimistic + optimistic)\nIndex types: BTree, single, path, collection\nMisc: Used in production since 2004, Embedded mode, Client Server mode, automatic recovery, on-line backup.",
+				"name": "ObjectDB",
+				"url": "http://www.objectdb.com/"
+			},
+			{
+				"content": "CoreObject: Version-controlled OODB, that supports powerful undo, semantic merging, and real-time collaborative editing.\nMIT-licensed, API: ObjC, Schema: EMOF-like, Concurrency: ACID, Replication: differential sync, Misc: DVCS based on object graph diffs, selective undo, refs accross versioned docs, tagging, temporal indexing, integrity checking.",
+				"name": "CoreObject",
+				"url": "http://www.coreobject.org/"
+			}
+		],
+		"name": "Object Databases \u00bb"
+	},
+	"ScientificandSpecializedDBs": {
+		"entries": [
+			{
+				"content": "BayesDB, a Bayesian database table, lets users query the probable implications of their tabular data as easily as an SQL database lets them query the data itself. Using the built-in Bayesian Query Language (BQL), users with no statistics training can solve basic data science problems, such as detecting predictive relationships between variables, inferring missing values, simulating probable observations, and identifying statistically similar database entries.",
+				"name": "BayesDB",
+				"url": "http://probcomp.csail.mit.edu/bayesdb/"
+			},
+			{
+				"content": "A distributed database for many core devices.\n  GPUdb leverages many core devices such as NVIDIA GPUs to provide\n\tan unparallelled parallel database experience. GPUdb is a scalable,\n\tdistributed database with SQL-style query capability, capable of\n\tstoring Big Data. Developers using the GPUdb API add data, and query \n\tthe data with operations like select, group by, and join. \n\tGPUdb includes many operations not available in other \"cloud database\" offerings.",
+				"name": "GPUdb",
+				"url": "http://www.gpudb.com/"
+			}
+		],
+		"name": "Scientific and Specialized DBs"
+	},
+	"TimeSeriesDatabases": {
+		"entries": [
+			{
+				"content": "Distributed DB designed to store and analyze high-frequency time-series data at scale.\n\t\tIncludes a large set of built-in features: \n\t\tRule Engine, Visualization, Data Forecasting, Data Mining.\n\t\tAPI: RESTful API, Network API, Data API, Meta API, SQL\n\t\t\tAPI Clients: R, Java, Ruby, Python, PHP, Node.js\n\t\t\t\tReplication: Master Slave\n\t\t\t\t\tMajor protocol & format support: CSV, nmon, pickle, StatsD, collectd, \n\t\t\t\t\t\ttcollector, scollector, JMX, JDBC, SNMP, JSON, ICMP, OVPM, SOAP.",
+				"name": "Axibase",
+				"url": "http://axibase.com/products/axibase-time-series-database/"
+			}
+		],
+		"name": "Time Series Databases"
+	},
+	"WideColumnStore/ColumnFamilies": {
+		"entries": [
+			{
+				"content": "API: Java / any writer, Protocol: any write call, Query Method: MapReduce\n\t\tJava / any exec, Replication: HDFS Replication, Written in: Java,\n\t\tConcurrency: ?, Misc:\n\t\tLinks: 3 Books [1,\n\t\t2,\n\t\t3]",
+				"name": "Hadoop / HBase",
+				"url": "http://hadoop.apache.org/"
+			},
+			{
+				"content": "Hadoop Distribution and professional services .",
+				"name": "MapR,\n\t\t  \tHortonworks,\n\t\t\t\tCloudera",
+				"url": "http://www.mapr.com"
+			},
+			{
+				"content": "massively scalable, partitioned row store, masterless architecture, linear scale performance, no single points of failure, read/write support across multiple data centers & cloud availability zones. API / Query Method: CQL and Thrift, replication: peer-to-peer, written in: Java, Concurrency: tunable consistency, Misc: built-in data compression, MapReduce support, primary/secondary indexes, security features. Links: Documentation, PlanetC*, Company.",
+				"name": "Cassandra",
+				"url": "https://cassandra.apache.org/"
+			},
+			{
+				"content": "API: Thrift (Java, PHP, Perl, Python, Ruby, etc.), Protocol: Thrift, Query\n\t\tMethod: HQL, native Thrift API, Replication: HDFS Replication,\n\t\tConcurrency: MVCC, Consistency Model: Fully consistent Misc: High performance\n\t\tC++ implementation of Google's Bigtable. \u00bb Commercial support",
+				"name": "Hypertable",
+				"url": "http://hypertable.org/"
+			},
+			{
+				"content": "Accumulo is based on BigTable\n\t\tand is built on top of Hadoop,\n\t\tZookeeper,\n\t\tand Thrift.\n\t\tIt features improvements on the BigTable design in the form of cell-based access control,\n\t\timproved compression, and a server-side programming mechanism that can modify key/value pairs\n\t\tat various points in the data management process.",
+				"name": "Accumulo",
+				"url": "http://accumulo.apache.org/"
+			},
+			{
+				"content": "Misc: not open source / part of AWS, Book (will be\n\t\toutperformed by DynamoDB!)",
+				"name": "Amazon SimpleDB",
+				"url": "http://aws.amazon.com/simpledb/"
+			},
+			{
+				"content": "Google's Big table clone like HBase. \u00bb Article",
+				"name": "Cloudata",
+				"url": "http://www.cloudata.org/"
+			},
+			{
+				"content": "Column Store pioneer since 2002.",
+				"name": "MonetDB",
+				"url": "https://www.monetdb.org/"
+			},
+			{
+				"content": "from LexisNexis, info, article",
+				"name": "HPCC",
+				"url": "http://www.hpccsystems.com/"
+			},
+			{
+				"content": "(formerly known as Stratosphere)\n\t\tmassively parallel & flexible data analytics platform, \n\t\tAPI: Java, Scala, \n\t\tQuery Method: expressive data flows (extended M/R, rich UDFs, iteration support), \n\t\tData Store: independent (e.g., HDFS, S3, MongoDB), \n\t\tWritten in: Java,\n\t\tLicense: Apache License V2.0,\n\t\tMisc: good integration with Hadoop stack (HDFS, YARN), source code on Github",
+				"name": "Apache Flink",
+				"url": "http://flink.apache.org/"
+			},
+			{
+				"content": "horizontally and vertically scalable, relational, partitioned row store, document store API / Query Method: SQL (native, DRDA, JDBC, ODBC), MongoDB wire listener, mixed mode, \nreplication: master / slave, peer-to-peer, sharding, grid operations, \nwritten in: C, \nConcurrency: row, page, table, db locking, \nMisc: ACID, built-in data compression, scheduler, automatic cyclic storage management, extensible, in memory acceleration, native ports from ARM v6 up Links: Documentation, IIUG, Company.",
+				"name": "IBM Informix",
+				"url": "http://www-01.ibm.com/software/data/informix/"
+			},
+			{
+				"content": "Splice Machine is an RDBMS built on Hadoop, HBase and Derby. Scale real-time applications using commodity hardware without application rewrites,\nFeatures: ACID transactions, ANSI SQL support, ODBC/JDBC, distributed computing",
+				"name": "Splice Machine",
+				"url": "http://www.splicemachine.com/"
+			},
+			{
+				"content": "massively scalable in-memory and persistent storage DBMS for analytics on market data\n(and other time series data). \nAPIs: C/C++, Java Native Interface (JNI), C#/.NET), Python, SQL (native, ODBC, JDBC), \nData layout: row, columnar, hybrid, \nWritten in: C, Replication: master/slave, cluster, sharding, \nConcurrency: Optimistic (MVCC) and pessimistic (locking)",
+				"name": "eXtremeDB Financial Edition",
+				"url": "http://financial.mcobject.com/"
+			},
+			{
+				"content": "a distributed self-tuning database with\n  automatic indexing, version control and ACID transactions.\n  Written In: Java. API/Protocol: Thrift (many languages). Concurrency:  serializable \n  transactions with just-in-time locking.\n  Misc: uses a buffered storage system to commit all data to disk\n  immediately while perform rich indexing in the background.",
+				"name": "ConcourseDB",
+				"url": "http://concoursedb.com/"
+			},
+			{
+				"content": "time-series database optimized for Big Data analytics.",
+				"name": "kdb+",
+				"url": "http://kx.com/"
+			}
+		],
+		"name": "Wide Column Store / Column Families"
+	},
+	"XMLDatabases": {
+		"entries": [
+			{
+				"content": "(commercial system) API: Java, XQuery,\n\tProtocol: WebDAV, web\n\tservices, Query method: XQuery, XPath, XPointer,\n\tReplication: lazy\n\tprimary copy replication (master/replicas), Written in: Java,\n\tConcurrency: concurrent reads, writes with\n\tlock; transaction isolation,\n\tMisc: Fully transactional persistent DOM; versioning; multiple index\n\ttypes; metadata and non-XML data support; unlimited horizontal scaling.\n\tDeveloper Network \u00bb",
+				"name": "EMC Documentum xDB",
+				"url": "http://www.emc.com/products/detail/software/documentum-xdb.htm"
+			},
+			{
+				"content": "API: XQuery, XML:DB API,\n\tDOM, SAX, Protocols: HTTP/REST,\n\tWebDAV, SOAP, XML-RPC, Atom, Query Method: XQuery, Written in: Java\n\t(open source),\n\tConcurrency: Concurrent\n\treads, lock on write;\n\tMisc: Entire web applications can be written in XQuery, using XSLT,\n\tXHTML, CSS, and Javascript (for AJAX functionality). (1.4)\n\tadds a\n\tnew full text search index based on Apache Lucene, a lightweight URL\n\trewriting and MVC framework, and support for XProc.",
+				"name": "eXist",
+				"url": "http://exist-db.org/"
+			},
+			{
+				"content": "Misc: ACID transactions, security, indices, hot backup. Flexible XML\n\tprocessing facilities include W3C XQuery implementation, tight\n\tintegration of XQuery with full-text search facilities and a node-level\n\tupdate language.",
+				"name": "Sedna",
+				"url": "http://modis.ispras.ru/sedna/"
+			},
+			{
+				"content": "BaseX is a fast, powerful, lightweight XML database system\n\tand\n\tXPath/XQuery processor with highly conformant support for the latest\n\tW3C Update and Full Text Recommendations. Client/Server architecture,\n\tACID transaction support, user management, logging, Open Source,\n\tBSD-license, written in Java, runs out of the box.",
+				"name": "BaseX",
+				"url": "http://basex.org/"
+			},
+			{
+				"content": "commercial and open source version, API: Java, Protocols:\n\tHTTP, REST, Query\n\tMethod: XQuery, XQuery\n\tFull-Text, XQuery Update, Written in: Java, full source can be\n\tpurchased,\n\tConcurrency: Concurrent\n\treads & writes, isolation, Misc: Terabyte scalable, emphasizes\n\tquery speed.",
+				"name": "Qizx",
+				"url": "http://www.xmlmind.com/qizx/"
+			},
+			{
+				"content": "API: Many languages,\n\tWritten in: C++,\n\tQuery Method: XQuery,\n\tReplication: Master /\n\tSlave, Concurrency: MVCC,\n\tLicense: Sleepycat",
+				"name": "Berkeley DB XML",
+				"url": "http://www.oracle.com/database/berkeley-db/xml/index.html"
+			}
+		],
+		"name": "XML Databases"
+	},
+	"otherNoSQLrelateddatabases": {
+		"entries": [
+			{
+				"content": "Type: Document Store, API: Java, HTTP, IIOP, C API, REST Web Services, DXL, Languages: Java, JavaScript,\n\t\tLotusScript, C, @Formulas, Protocol: HTTP, NRPC, Replication: Master/Master, Written in: C, Concurrency:\n\t\tEventually\n\t\tConsistent, Scaling: Replication\n\t\tClusters",
+				"name": "IBM Lotus/Domino",
+				"url": "http://www-01.ibm.com/software/lotus/"
+			},
+			{
+				"content": "Type: In-Memory\n\t\tDatabase; Written in: C;\n\t\tAPI: C/C++, SQL, JNI,\n\t\tC#(.NET), JDBC;\n\t\tReplication: Async+sync\n\t\t(master-slave), Cluster; Scalability: 64-bit and MVCC",
+				"name": "eXtremeDB",
+				"url": "http://www.mcobject.com/extremedbfamily.shtml"
+			},
+			{
+				"content": "APIs: C++, Navigational C.\n\t\tEmbedded Solution that is ACID Compliant with Multi-Core, On-Disk\n\t\t&\n\t\tIn-Memory Support. Distributed Capabilities, Hot Online Backup,\n\t\tsupports all Main Platforms. Supported\n\t\tB Tree & Hash Indexing. Replication: Master/Slave,\n\t\tConcurrency: MVCC.\n\t\tClient/Server: In-process/Built-in.",
+				"name": "RDM Embedded",
+				"url": "http://www.raima.com/products/rdme/"
+			},
+			{
+				"content": "(semistructured databases)\n\t\t\u00bb",
+				"name": "ISIS Family",
+				"url": "http://www.unesco.org/webworld/isis/isis.htm"
+			},
+			{
+				"content": "NoSql, in-memory, flat-file, cloud-based. API interfaces. Small data footprint and very fast data retrieval. Stores 200 million records with 200 attributes in just 10GB.  Retrieves 150 million records per second per CPU core. Often used to visualize big data on maps. Written in C.",
+				"name": "Moonshadow",
+				"url": "http://www.moonshadowmobile.com/data-visualization/big-data-visualizer/"
+			},
+			{
+				"content": "Next-gen NoSQL encrypted document store. Multi-recipient / group encryption. Featuers: concurrency, indices, ACID transactions, replication and PKI management. Supports PHP and many others. Written in C++. Commercial but has a free version. API: JSON",
+				"name": "VaultDB",
+				"url": "http://www.rediosoft.com/"
+			},
+			{
+				"content": "Service oriented, schema-less, network data model DBMS.\n\t\tClient application invokes methods of vyhodb services, which are\n\t\twritten in Java and deployed inside vyhodb. Vyhodb services reads\n\t\tand modifies storage data. API: Java, Protocol:\n\t\tRSI - Remote service invocation, Written in: Java,\n\t\tACID:  fully supported, Replication:\n\t\tasync master slave, Misc: online backup,\n\t\tLicense: proprietary",
+				"name": "Vyhodb",
+				"url": "http://www.vyhodb.com/"
+			},
+			{
+				"content": "Java RAM Data structure\n\t\tjournalling.",
+				"name": "Prevayler",
+				"url": "http://www.prevayler.org/"
+			},
+			{
+				"content": "Python wrapper over sqlite3",
+				"name": "Yserial",
+				"url": "http://yserial.sourceforge.net/"
+			}
+		],
+		"name": "other NoSQL related databases"
+	},
+	"unresolvedanduncategorized": {
+		"entries": [
+			{
+				"content": "(by Pervasive Software) key/index/tupel DB. Using Pages.\n\t\t\u00bb (faq\n\t\t\u00bb)",
+				"name": "Btrieve",
+				"url": "http://www.wordiq.com/definition/Btrieve"
+			},
+			{
+				"content": "Written in: Ruby. github: \u00bb",
+				"name": "KirbyBase",
+				"url": "https://rubygems.org/gems/KirbyBase"
+			},
+			{
+				"content": "",
+				"name": "Tokutek:",
+				"url": "http://tokutek.com/"
+			},
+			{
+				"content": "GNU Tool for text files containing records and fields. Manual\n\t\t\u00bb",
+				"name": "Recutils:",
+				"url": "http://www.gnu.org/software/recutils/"
+			},
+			{
+				"content": "Mainly targeted to Silverlight/Windows Phone developers but its also\n\t\tgreat for any .NET application where a simple local database is\n\t\trequired, extremely Lightweight - less than 50K, stores one table per\n\t\tfile, including index, compiled versions for Windows Phone 7,\n\t\tSilverlight and .NET, fast, free to use in your applications",
+				"name": "FileDB:",
+				"url": "http://www.eztools-software.com/tools/filedb/"
+			},
+			{
+				"content": "written in Python",
+				"name": "CodernityDB",
+				"url": "http://labs.codernity.com/codernitydb/"
+			}
+		],
+		"name": "unresolved and uncategorized"
+	}
+}
