@@ -422,6 +422,11 @@
 				"url": "https://github.com/mailru/tarantool"
 			},
 			{
+				"content": "In-memory (opt. persistence via mmap), highly concurrent, low-latency key-value store.\n\tAPI: Java.\n\tWritten in: Java.\n\tProtocol: in-process Java, remote via\n\tChronicle Engine + Wire:\n\tbinary, text, Java, C# bindnings.\n\tConcurrency: in-memory lock striping, read-write locks.\n\tReplication: multi-master, eventually consistent.",
+				"name": "Chronicle Map",
+				"url": "https://github.com/OpenHFT/Chronicle-Map"
+			},
+			{
 				"content": "API: C, Query Method: MQL, native API, Replication:\n\tDFS Replication, Consistency: strict consistency Written\n\tin: C.",
 				"name": "Maxtable",
 				"url": "http://code.google.com/p/maxtable/"
